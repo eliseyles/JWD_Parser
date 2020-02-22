@@ -1,6 +1,7 @@
 package parser;
 
 import composite.TextComponent;
+import exception.CalculateException;
 import exception.ParseException;
 import util.CalculateStringToInt;
 
@@ -29,6 +30,11 @@ public class ExpressionParser extends AbstractParser {
     }
 
     private int calculateExpression(String expression) {
-        return new CalculateStringToInt().calculateByPolishNotation(expression);
+        try {
+            return new CalculateStringToInt().calculateByPolishNotation(expression);
+        } catch (CalculateException e) {
+
+        }
+        return 0;
     }
 }

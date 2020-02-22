@@ -1,10 +1,14 @@
 package util;
 
+import exception.CalculateException;
+
 import java.util.Stack;
 
 public class CalculateStringToInt {
 
-    public int calculateByPolishNotation(String text) {
+    public int calculateByPolishNotation(String text) throws CalculateException{
+        isValidText(text);
+
         text = changeShift(text);
 
         Stack<Character> operation = new Stack<Character>();
@@ -110,6 +114,12 @@ public class CalculateStringToInt {
     private String changeShift(String text) {
         text = text.replace(">>", ">");
         return text.replace("<<", "<");
+    }
+
+    private void isValidText(String text) throws CalculateException{
+        if (text == null) {
+            throw new CalculateException("Expression is null");
+        }
     }
 
 }
