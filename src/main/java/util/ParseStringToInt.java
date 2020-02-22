@@ -3,7 +3,8 @@ package util;
 import java.util.Stack;
 
 public class ParseStringToInt {
-    private int calculateByPolishNotation(String text) {
+
+    public int calculateByPolishNotation(String text) {
         text = changeShift(text);
 
         Stack<Character> operation = new Stack<Character>();
@@ -110,6 +111,5 @@ public class ParseStringToInt {
         text = text.replace(">>", ">");
         return text.replace("<<", "<");
     }
-
 
 }
