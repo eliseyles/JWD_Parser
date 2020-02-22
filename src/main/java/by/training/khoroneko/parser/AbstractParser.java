@@ -1,9 +1,9 @@
-package parser;
+package by.training.khoroneko.parser;
 
-import composite.Composite;
-import composite.TextComponent;
-import composite.TextComponentType;
-import exception.ParseException;
+import by.training.khoroneko.composite.Composite;
+import by.training.khoroneko.composite.TextComponent;
+import by.training.khoroneko.composite.TextComponentType;
+import by.training.khoroneko.exception.ParseException;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -18,7 +18,7 @@ public abstract class AbstractParser {
             throw new ParseException("Source text isn't exist");
         }
         if (nextParser == null) {
-            throw new ParseException("Next parser wasn't set");
+            throw new ParseException("Next by.training.khoroneko.parser wasn't set");
         }
         TextComponent component = new Composite(componentType);
         Pattern pattern = Pattern.compile(componentType.getRegex());

@@ -1,4 +1,4 @@
-package exception;
+package by.training.khoroneko.exception;
 
 public class ParseException extends Exception {
     public ParseException() {

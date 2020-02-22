@@ -1,7 +1,7 @@
-package reader.impl;
+package by.training.khoroneko.reader.impl;
 
-import exception.ReaderException;
-import reader.Reader;
+import by.training.khoroneko.exception.ReaderException;
+import by.training.khoroneko.reader.Reader;
 
 import java.io.File;
 import java.io.IOException;

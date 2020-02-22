@@ -1,4 +1,4 @@
-package composite;
+package by.training.khoroneko.composite;
 
 public enum TextComponentType {
     TEXT("(?m)(?s)[^\n]+[\r\n\t]*"),

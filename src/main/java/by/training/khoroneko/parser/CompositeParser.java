@@ -1,6 +1,6 @@
-package parser;
+package by.training.khoroneko.parser;
 
-import composite.TextComponentType;
+import by.training.khoroneko.composite.TextComponentType;
 
 public class CompositeParser extends AbstractParser {
     public CompositeParser(TextComponentType type, AbstractParser nextParser) {

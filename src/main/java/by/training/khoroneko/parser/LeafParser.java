@@ -1,9 +1,9 @@
-package parser;
+package by.training.khoroneko.parser;
 
-import composite.Leaf;
-import composite.TextComponent;
-import composite.TextComponentType;
-import exception.ParseException;
+import by.training.khoroneko.composite.Leaf;
+import by.training.khoroneko.composite.TextComponent;
+import by.training.khoroneko.composite.TextComponentType;
+import by.training.khoroneko.exception.ParseException;
 
 public class LeafParser extends AbstractParser {
     private static final int LEAF_LENGTH = 1;

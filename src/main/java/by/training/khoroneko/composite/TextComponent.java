@@ -1,4 +1,4 @@
-package composite;
+package by.training.khoroneko.composite;
 
 import java.util.Iterator;
 

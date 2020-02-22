@@ -1,10 +1,8 @@
-package util;
+package by.training.khoroneko.util;
 
-import exception.CalculateException;
+import by.training.khoroneko.exception.CalculateException;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class CalculateStringToIntTest {
 

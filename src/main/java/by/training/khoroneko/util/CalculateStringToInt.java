@@ -1,6 +1,6 @@
-package util;
+package by.training.khoroneko.util;
 
-import exception.CalculateException;
+import by.training.khoroneko.exception.CalculateException;
 
 import java.util.Stack;
 

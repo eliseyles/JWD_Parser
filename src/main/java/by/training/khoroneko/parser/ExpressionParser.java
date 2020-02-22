@@ -1,9 +1,9 @@
-package parser;
+package by.training.khoroneko.parser;
 
-import composite.TextComponent;
-import exception.CalculateException;
-import exception.ParseException;
-import util.CalculateStringToInt;
+import by.training.khoroneko.composite.TextComponent;
+import by.training.khoroneko.exception.CalculateException;
+import by.training.khoroneko.exception.ParseException;
+import by.training.khoroneko.util.CalculateStringToInt;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

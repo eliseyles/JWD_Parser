@@ -1,4 +1,4 @@
-package exception;
+package by.training.khoroneko.exception;
 
 public class CalculateException extends Exception {
     public CalculateException() {
