@@ -2,7 +2,7 @@ package util;
 
 import java.util.Stack;
 
-public class ParseStringToInt {
+public class CalculateStringToInt {
 
     public int calculateByPolishNotation(String text) {
         text = changeShift(text);
