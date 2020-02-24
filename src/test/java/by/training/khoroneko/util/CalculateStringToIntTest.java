@@ -11,11 +11,6 @@ public class CalculateStringToIntTest {
         new CalculateStringToInt().calculateByPolishNotation(null);
     }
 
-    @Test(expected = CalculateException.class)
-    public void calculateByPolishNotationTestNotMatchesExpectException() throws CalculateException{
-        new CalculateStringToInt().calculateByPolishNotation("ab1");
-    }
-
     @Test
     public void calculateByPolishNotationTestNormal() throws CalculateException{
         int actual = new CalculateStringToInt().calculateByPolishNotation("~6&9");
